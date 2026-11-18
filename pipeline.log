@@ -1,0 +1,120 @@
+2026-11-18 12:16:16,802  INFO      [extractor]  ============================================================
+2026-11-18 12:16:16,802  INFO      [extractor]  PIPELINE RUN STARTING
+2026-11-18 12:16:16,802  INFO      [extractor]  ============================================================
+2026-11-18 12:16:16,809  INFO      [extractor]  Starting extraction — mode=live
+2026-11-18 12:16:16,809  INFO      [extractor]  Fetching data for Vadodara (22.3072, 73.1812)...
+2026-11-18 12:16:16,809  INFO      [extractor]    Attempt 1/3 → GET https://api.open-meteo.com/v1/forecast
+2026-11-18 12:16:20,981  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:16:20,983  INFO      [extractor]    Parsed 144 raw rows for Vadodara.
+2026-11-18 12:16:20,986  INFO      [extractor]  Fetching data for Ahmedabad (23.0225, 72.5714)...
+2026-11-18 12:16:20,986  INFO      [extractor]    Attempt 1/3 → GET https://api.open-meteo.com/v1/forecast
+2026-11-18 12:16:21,559  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:16:21,560  INFO      [extractor]    Parsed 144 raw rows for Ahmedabad.
+2026-11-18 12:16:21,560  INFO      [extractor]  Fetching data for Mumbai (19.076, 72.8777)...
+2026-11-18 12:16:21,560  INFO      [extractor]    Attempt 1/3 → GET https://api.open-meteo.com/v1/forecast
+2026-11-18 12:16:22,132  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:16:22,133  INFO      [extractor]    Parsed 144 raw rows for Mumbai.
+2026-11-18 12:16:22,133  INFO      [extractor]  Fetching data for Delhi (28.6139, 77.209)...
+2026-11-18 12:16:22,133  INFO      [extractor]    Attempt 1/3 → GET https://api.open-meteo.com/v1/forecast
+2026-11-18 12:16:22,685  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:16:22,686  INFO      [extractor]    Parsed 144 raw rows for Delhi.
+2026-11-18 12:16:22,686  INFO      [extractor]  Extraction complete. Total raw rows: 576
+2026-11-18 12:16:27,573  INFO      [extractor]  PIPELINE RUN COMPLETE
+2026-11-18 12:16:27,573  INFO      [extractor]  ============================================================
+2026-11-18 12:17:01,658  INFO      [extractor]  ============================================================
+2026-11-18 12:17:01,658  INFO      [extractor]  PIPELINE RUN STARTING
+2026-11-18 12:17:01,658  INFO      [extractor]  ============================================================
+2026-11-18 12:17:01,669  INFO      [extractor]  Starting extraction — mode=historical, range=2024-11-01 to 2024-11-07
+2026-11-18 12:17:01,669  INFO      [extractor]  Fetching data for Vadodara (22.3072, 73.1812)...
+2026-11-18 12:17:01,669  INFO      [extractor]    Attempt 1/3 → GET https://archive-api.open-meteo.com/v1/archive
+2026-11-18 12:17:02,829  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:17:02,831  INFO      [extractor]    Parsed 504 raw rows for Vadodara.
+2026-11-18 12:17:02,831  INFO      [extractor]  Fetching data for Ahmedabad (23.0225, 72.5714)...
+2026-11-18 12:17:02,831  INFO      [extractor]    Attempt 1/3 → GET https://archive-api.open-meteo.com/v1/archive
+2026-11-18 12:17:03,986  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:17:03,988  INFO      [extractor]    Parsed 504 raw rows for Ahmedabad.
+2026-11-18 12:17:03,988  INFO      [extractor]  Fetching data for Mumbai (19.076, 72.8777)...
+2026-11-18 12:17:03,988  INFO      [extractor]    Attempt 1/3 → GET https://archive-api.open-meteo.com/v1/archive
+2026-11-18 12:17:05,128  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:17:05,130  INFO      [extractor]    Parsed 504 raw rows for Mumbai.
+2026-11-18 12:17:05,130  INFO      [extractor]  Fetching data for Delhi (28.6139, 77.209)...
+2026-11-18 12:17:05,130  INFO      [extractor]    Attempt 1/3 → GET https://archive-api.open-meteo.com/v1/archive
+2026-11-18 12:17:06,320  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:17:06,322  INFO      [extractor]    Parsed 504 raw rows for Delhi.
+2026-11-18 12:17:06,322  INFO      [extractor]  Extraction complete. Total raw rows: 2016
+2026-11-18 12:17:06,574  INFO      [extractor]  PIPELINE RUN COMPLETE
+2026-11-18 12:17:06,574  INFO      [extractor]  ============================================================
+2026-11-18 12:25:42,542  INFO      [extractor]  ============================================================
+2026-11-18 12:25:42,543  INFO      [extractor]  PIPELINE RUN STARTING
+2026-11-18 12:25:42,543  INFO      [extractor]  ============================================================
+2026-11-18 12:25:42,639  INFO      [extractor]  Starting extraction — mode=live
+2026-11-18 12:25:42,639  INFO      [extractor]  Fetching data for Vadodara (22.3072, 73.1812)...
+2026-11-18 12:25:42,639  INFO      [extractor]    Attempt 1/3 → GET https://api.open-meteo.com/v1/forecast
+2026-11-18 12:25:45,663  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:25:45,664  INFO      [extractor]    Parsed 144 raw rows for Vadodara.
+2026-11-18 12:25:45,664  INFO      [extractor]  Fetching data for Ahmedabad (23.0225, 72.5714)...
+2026-11-18 12:25:45,664  INFO      [extractor]    Attempt 1/3 → GET https://api.open-meteo.com/v1/forecast
+2026-11-18 12:25:46,770  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:25:46,771  INFO      [extractor]    Parsed 144 raw rows for Ahmedabad.
+2026-11-18 12:25:46,772  INFO      [extractor]  Fetching data for Mumbai (19.076, 72.8777)...
+2026-11-18 12:25:46,772  INFO      [extractor]    Attempt 1/3 → GET https://api.open-meteo.com/v1/forecast
+2026-11-18 12:25:47,886  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:25:47,887  INFO      [extractor]    Parsed 144 raw rows for Mumbai.
+2026-11-18 12:25:47,888  INFO      [extractor]  Fetching data for Delhi (28.6139, 77.209)...
+2026-11-18 12:25:47,888  INFO      [extractor]    Attempt 1/3 → GET https://api.open-meteo.com/v1/forecast
+2026-11-18 12:25:49,060  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:25:49,061  INFO      [extractor]    Parsed 144 raw rows for Delhi.
+2026-11-18 12:25:49,061  INFO      [extractor]  Extraction complete. Total raw rows: 576
+2026-11-18 12:25:49,825  INFO      [extractor]  PIPELINE RUN COMPLETE
+2026-11-18 12:25:49,826  INFO      [extractor]  ============================================================
+2026-11-18 12:32:39,845  INFO      [extractor]  ============================================================
+2026-11-18 12:32:39,846  INFO      [extractor]  PIPELINE RUN STARTING
+2026-11-18 12:32:39,846  INFO      [extractor]  ============================================================
+2026-11-18 12:32:40,101  INFO      [extractor]  Starting extraction — mode=live
+2026-11-18 12:32:40,103  INFO      [extractor]  Fetching data for Vadodara (22.3072, 73.1812)...
+2026-11-18 12:32:40,103  INFO      [extractor]    Attempt 1/3 → GET https://api.open-meteo.com/v1/forecast
+2026-11-18 12:32:41,273  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:32:41,278  INFO      [extractor]    Parsed 144 raw rows for Vadodara.
+2026-11-18 12:32:41,278  INFO      [extractor]  Fetching data for Ahmedabad (23.0225, 72.5714)...
+2026-11-18 12:32:41,279  INFO      [extractor]    Attempt 1/3 → GET https://api.open-meteo.com/v1/forecast
+2026-11-18 12:32:42,431  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:32:42,432  INFO      [extractor]    Parsed 144 raw rows for Ahmedabad.
+2026-11-18 12:32:42,433  INFO      [extractor]  Fetching data for Mumbai (19.076, 72.8777)...
+2026-11-18 12:32:42,433  INFO      [extractor]    Attempt 1/3 → GET https://api.open-meteo.com/v1/forecast
+2026-11-18 12:32:43,456  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:32:43,457  INFO      [extractor]    Parsed 144 raw rows for Mumbai.
+2026-11-18 12:32:43,458  INFO      [extractor]  Fetching data for Delhi (28.6139, 77.209)...
+2026-11-18 12:32:43,458  INFO      [extractor]    Attempt 1/3 → GET https://api.open-meteo.com/v1/forecast
+2026-11-18 12:32:44,032  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:32:44,033  INFO      [extractor]    Parsed 144 raw rows for Delhi.
+2026-11-18 12:32:44,033  INFO      [extractor]  Extraction complete. Total raw rows: 576
+2026-11-18 12:32:44,607  INFO      [extractor]  PIPELINE RUN COMPLETE
+2026-11-18 12:32:44,607  INFO      [extractor]  ============================================================
+2026-11-18 12:32:58,825  INFO      [extractor]  ============================================================
+2026-11-18 12:32:58,826  INFO      [extractor]  PIPELINE RUN STARTING
+2026-11-18 12:32:58,826  INFO      [extractor]  ============================================================
+2026-11-18 12:32:58,898  INFO      [extractor]  Starting extraction — mode=historical, range=2024-06-01 to 2024-06-07
+2026-11-18 12:32:58,898  INFO      [extractor]  Fetching data for Vadodara (22.3072, 73.1812)...
+2026-11-18 12:32:58,899  INFO      [extractor]    Attempt 1/3 → GET https://archive-api.open-meteo.com/v1/archive
+2026-11-18 12:32:59,845  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:32:59,847  INFO      [extractor]    Parsed 504 raw rows for Vadodara.
+2026-11-18 12:32:59,848  INFO      [extractor]  Fetching data for Ahmedabad (23.0225, 72.5714)...
+2026-11-18 12:32:59,848  INFO      [extractor]    Attempt 1/3 → GET https://archive-api.open-meteo.com/v1/archive
+2026-11-18 12:33:00,968  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:33:00,971  INFO      [extractor]    Parsed 504 raw rows for Ahmedabad.
+2026-11-18 12:33:00,971  INFO      [extractor]  Fetching data for Mumbai (19.076, 72.8777)...
+2026-11-18 12:33:00,971  INFO      [extractor]    Attempt 1/3 → GET https://archive-api.open-meteo.com/v1/archive
+2026-11-18 12:33:01,963  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:33:01,965  INFO      [extractor]    Parsed 504 raw rows for Mumbai.
+2026-11-18 12:33:01,965  INFO      [extractor]  Fetching data for Delhi (28.6139, 77.209)...
+2026-11-18 12:33:01,966  INFO      [extractor]    Attempt 1/3 → GET https://archive-api.open-meteo.com/v1/archive
+2026-11-18 12:33:02,557  INFO      [extractor]    ✓ HTTP 200 received.
+2026-11-18 12:33:02,558  INFO      [extractor]    Parsed 504 raw rows for Delhi.
+2026-11-18 12:33:02,559  INFO      [extractor]  Extraction complete. Total raw rows: 2016
+2026-11-18 12:33:03,753  INFO      [extractor]  PIPELINE RUN COMPLETE
+2026-11-18 12:33:03,754  INFO      [extractor]  ============================================================
+2026-11-18 12:33:19,933  INFO      [extractor]  GAP DETECTION STARTED
+2026-11-18 12:33:20,203  INFO      [extractor]  Expected rows in 2024-06-01 to 2024-06-07: 2016
+2026-11-18 12:33:20,217  INFO      [extractor]  Rows already in DB: 2016
+2026-11-18 12:33:20,234  INFO      [extractor]  Gaps found: 0
+2026-11-18 12:33:20,236  INFO      [extractor]  GAP DETECTION COMPLETE

@@ -1,0 +1,80 @@
+{
+  "cities": [
+    {
+      "name": "Vadodara",
+      "tag_prefix": "VAD",
+      "latitude": 22.3072,
+      "longitude": 73.1812,
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "name": "Ahmedabad",
+      "tag_prefix": "AMD",
+      "latitude": 23.0225,
+      "longitude": 72.5714,
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "name": "Mumbai",
+      "tag_prefix": "MUM",
+      "latitude": 19.0760,
+      "longitude": 72.8777,
+      "timezone": "Asia/Kolkata"
+    },
+    {
+      "name": "Delhi",
+      "tag_prefix": "DEL",
+      "latitude": 28.6139,
+      "longitude": 77.2090,
+      "timezone": "Asia/Kolkata"
+    }
+  ],
+
+  "variables": [
+    {
+      "api_name": "temperature_2m",
+      "tag_suffix": "TEMP",
+      "measurement": "Temperature",
+      "unit": "°C",
+      "valid_min": -10,
+      "valid_max": 55
+    },
+    {
+      "api_name": "relative_humidity_2m",
+      "tag_suffix": "HUM",
+      "measurement": "Relative Humidity",
+      "unit": "%",
+      "valid_min": 0,
+      "valid_max": 100
+    },
+    {
+      "api_name": "wind_speed_10m",
+      "tag_suffix": "WIND",
+      "measurement": "Wind Speed",
+      "unit": "km/h",
+      "valid_min": 0,
+      "valid_max": 200
+    }
+  ],
+
+  "api": {
+    "base_url": "https://api.open-meteo.com/v1/forecast",
+    "historical_url": "https://archive-api.open-meteo.com/v1/archive",
+    "timeout_seconds": 30,
+    "max_retries": 3,
+    "retry_delay_seconds": 5
+  },
+
+  "database": {
+    "host":     "localhost",
+    "port":     5522,
+    "name":     "weather",
+    "user":     "postgres",
+    "password": "Pranav2004"
+  },
+
+  "logging": {
+    "file": "pipeline.log",
+    "level": "INFO"
+  }
+}

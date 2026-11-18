@@ -1,0 +1,4 @@
+-- SQL summaries will be added in Phase 6.
+-- Folder reserved for:
+--   daily_summary.sql
+--   moving_average.sql
